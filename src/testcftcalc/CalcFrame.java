@@ -48,7 +48,7 @@ public class CalcFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        textFieldExp.setText("31+4*2/(1-5)^2");
+        textFieldExp.setText("0");
 
         textFieldResult.setEditable(false);
 
@@ -106,6 +106,7 @@ public class CalcFrame extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void butResultActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_butResultActionPerformed
