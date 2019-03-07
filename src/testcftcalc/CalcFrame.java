@@ -47,6 +47,8 @@ public class CalcFrame extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Test Calc");
+        setResizable(false);
 
         textFieldExp.setText("0");
 
